@@ -1,0 +1,3 @@
+.expense-form { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.filters-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+@media (max-width: 600px) { .expense-form { grid-template-columns: 1fr; } }

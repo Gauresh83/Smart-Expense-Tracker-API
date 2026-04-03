@@ -1,0 +1,16 @@
+.dashboard { display: flex; flex-direction: column; gap: 0; }
+.page-header { margin-bottom: 24px; }
+.page-header h2 { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+.stat-card { display: flex; align-items: center; gap: 16px; }
+.stat-icon { width: 46px; height: 46px; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.stat-label { font-size: 12px; color: var(--text2); margin-bottom: 2px; }
+.stat-value { font-size: 20px; font-weight: 700; }
+.stat-sub { font-size: 11px; color: var(--text2); margin-top: 2px; }
+.chart-title { font-size: 15px; font-weight: 600; margin-bottom: 12px; }
+.loading-chart { height: 100%; background: var(--bg3); border-radius: 8px; animation: pulse 1.5s infinite; }
+@keyframes pulse { 0%,100% { opacity:0.4 } 50% { opacity:0.8 } }
+.expense-table { width: 100%; border-collapse: collapse; }
+.expense-table th { text-align: left; padding: 8px 12px; color: var(--text2); font-size: 12px; font-weight: 500; border-bottom: 1px solid var(--border); }
+.expense-table td { padding: 12px 12px; border-bottom: 1px solid var(--border); font-size: 13px; }
+.expense-table tr:last-child td { border-bottom: none; }
+.expense-table tr:hover td { background: var(--bg3); }
